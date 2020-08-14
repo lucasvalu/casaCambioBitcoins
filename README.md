@@ -4,10 +4,10 @@ Projeto realizado por Lucas Matheus Valú Batista.
 
 # Documentação dos endpoints
 
-Descrição: Cadastrar cliente
-Método: Post
-Endpoint: http://localhost:8080/cliente
-Tipo de conteúdo (Content-type): application/json
+Descrição: Cadastrar cliente  
+Método: Post  
+Endpoint: http://localhost:8080/cliente  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 201 se o cliente foi criado com sucesso.
 
@@ -28,10 +28,10 @@ Exemplo de carga útil:
 
 ---
 
-Descrição: Alterar cliente
-Método: Post
-Endpoint: http://localhost:8080/cliente/{cpf}
-Tipo de conteúdo (Content-type): application/json
+Descrição: Alterar cliente  
+Método: Post  
+Endpoint: http://localhost:8080/cliente/{cpf}  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 201 se o cliente foi criado com sucesso.
 
@@ -52,10 +52,10 @@ Exemplo de carga útil:
 
 ---
 
-Descrição: Listar todos os clientes
-Método: GET
-Endpoint: http://localhost:8080/cliente
-Tipo de conteúdo (Content-type): application/json
+Descrição: Listar todos os clientes  
+Método: GET  
+Endpoint: http://localhost:8080/cliente  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 200 se a requisição foi realizada com sucesso
 
@@ -91,10 +91,10 @@ Exemplo de retorno:
 
 ---
 
-Descrição: Listar cliente específico
-Método: GET
-Endpoint: http://localhost:8080/cliente/{cpf}
-Tipo de conteúdo (Content-type): application/json
+Descrição: Listar cliente específico  
+Método: GET  
+Endpoint: http://localhost:8080/cliente/{cpf}  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 200 se a requisição foi realizada com sucesso
 
@@ -117,10 +117,10 @@ Exemplo de retorno:
 
 ---
 
-Descrição:  Excluir cliente
-Método: DELETE
-Endpoint: http://localhost:8080/cliente/{cpf}
-Tipo de conteúdo (Content-type): application/json
+Descrição:  Excluir cliente  
+Método: DELETE  
+Endpoint: http://localhost:8080/cliente/{cpf}  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 204 se a requisição foi realizada com sucesso
 
@@ -131,10 +131,10 @@ Exemplo de retorno:
 
 ---
 
-Descrição: Realizar transferência de saldo
-Método: POST
-Endpoint: http://localhost:8080/cliente/{cpf}/creditar
-Tipo de conteúdo (Content-type): application/json
+Descrição: Realizar transferência de saldo  
+Método: POST  
+Endpoint: http://localhost:8080/cliente/{cpf}/creditar  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 200 se a requisição foi realizada com sucesso
 
@@ -152,10 +152,10 @@ Exemplo de carga útil:
 
 ---
 
-Descrição: Realizar compra de Bitcoin
-Método: GET
-Endpoint: http://localhost:8080/cliente/comprarBitcoin/{cpf}?quantidadeBitcoin=2.5
-Tipo de conteúdo (Content-type): application/json
+Descrição: Realizar compra de Bitcoin  
+Método: GET  
+Endpoint: http://localhost:8080/cliente/comprarBitcoin/{cpf}?quantidadeBitcoin=2.5  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 200 se a requisição foi realizada com sucesso
 
@@ -179,10 +179,10 @@ Exemplo de retorno:
 ---
 
 
-Descrição: Listar todos as contas
-Método: GET
-Endpoint: http://localhost:8080/conta
-Tipo de conteúdo (Content-type): application/json
+Descrição: Listar todas as contas  
+Método: GET  
+Endpoint: http://localhost:8080/conta  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 200 se a requisição foi realizada com sucesso
 
@@ -202,10 +202,10 @@ Exemplo de retorno:
 
 ---
 
-Descrição: Listar conta específica
-Método: GET
-Endpoint: http://localhost:8080/conta/{id}
-Tipo de conteúdo (Content-type): application/json
+Descrição: Listar conta específica  
+Método: GET  
+Endpoint: http://localhost:8080/conta/{id}  
+Tipo de conteúdo (Content-type): application/json  
 Códigos de retorno:
 - Status HTTP 200 se a requisição foi realizada com sucesso
 
@@ -224,11 +224,11 @@ Exemplo de retorno:
 
 ---
 
-Descrição: Verificar cotação atual de Bitcoin em reais (BRL)
-Método: GET
-Endpoint: http://localhost:8080/bitcoin
-Tipo de conteúdo (Content-type): application/json
-Códigos de retorno:
+Descrição: Verificar cotação atual de Bitcoin em reais (BRL)  
+Método: GET  
+Endpoint: http://localhost:8080/bitcoin  
+Tipo de conteúdo (Content-type): application/json  
+Códigos de retorno:  
 - Status HTTP 200 se a requisição foi realizada com sucesso 
 
 Exemplo de retorno:
